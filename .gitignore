@@ -1,0 +1,47 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración del entorno
+.env
+.env.*
+
+# Archivos de test
+.pytest_cache/
+.coverage
+.cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# IDEs / editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por pytest
+test-results/
+junit.xml
+
+# Volúmenes montados (si los usas en desarrollo)
+mongo_data/
