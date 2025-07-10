@@ -59,9 +59,8 @@ docker-compose run --rm api bash
 # Luego dentro del contenedor:
 PYTHONPATH=/app pytest -v
 
-![Test](assets/Test.png)
-
 ```
+![Test](assets/Test.png)
 
 ✔️ Cobertura completa para:
 
